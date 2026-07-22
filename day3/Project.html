@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Create your Account</h1>
+    <p>Join us and get started today!</p>
+    <form action="Form">
+      <label for="FullName">FullName:</label><br>
+      <input type="text" id="Fullname" name="Fullname" />
+      <br />
+      <label for="EmailAddress">Emailaddress:</label><br>
+      <input type="email" id="email" name="email" />
+      <br />
+      <label for="Password">password:</label><br>
+      <input type="password" id="password" name="password" />
+      <br />
+      <label for="confirmpassword">confirmpassword:</label><br>
+      <input type="password" id="password" name="password" />
+      <br />
+      <label for="gender">Gender</label>
+      <br />
+      <input type="radio" id="gender" name="gender" value="male" />
+      <label for="gender">Male</label>
+      <input type="radio" id="gender" name="gender" value="female" />
+      <label for="gender">Female</label>
+      <input type="radio" id="gender" name="gendere" value="other" />
+      <label for="gender">Other</label>
+      <br />
+      <label for="dob">Date of Birth</label>
+      <br />
+      <input type="date" id="dob" name="dob" />
+      <br />
+      <label for="Country">Country:</label><br>
+      <select id="Country" name="country" required>
+        <option value="">select your country</option>
+        <option value="INDIA">INDIA</option>
+        <option value="USA">United states</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">United kingdom</option>
+        <option value="Australia">Australia</option>
+      </select>
+      <br />
+      <input type="checkbox" id="terms" name="terms" required />
+      <label for="terms"
+        >I agree to the
+        <span style="color: Red"
+          >Terms of Service and Privarcy Policy</span
+        ></label
+      >
+      <br />
+      <button type="submit">Register Now</button>
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </form>
+  </body>
+</html>
