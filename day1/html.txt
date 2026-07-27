@@ -1,0 +1,165 @@
+Day1
+HTML
+----
+structure
+
+CSS
+---
+stylings
+
+STATIC website
+--------------
+a website where the content is fixed
+
+BOOTSTRAP
+---------
+framework-collection of pre defined code
+
+JAVASCRIPT
+----------
+dynamic websites - user can able to interact
+
+REACT
+-----
+react is a JS library
+
+HTML-hypertext markup language
+
+hypertext - text reference to other text
+markup - a set of rules that defines how content should be displayed on browser
+
+HTML - it is a standard markup language that is used to create structure for a webpage
+--> it contains series of elements that represented by tags
+TAG --> <resv words >-- open tag
+</resv words >-- closing tag
+
+element
+=======
+open tag + content +closing tag
+<h1>primary heading </h1>
+
+container tags or pair tags
+===========================
+<h1>primary heading </h1>
+
+self closing tags or empty or void tags
+=======================================
+<img>
+
+VS CODE
+=======
+
+basic structure of html
+-----------------------
+<!DOCTYPE html>
+this is declaration -- it tell the type and version(5) of doc to the browser
+
+it acts as a root elements
+<html>
+     head is used to define title, meta data and third party
+     <head>
+        <title> html page </title>
+    <head>
+    <body>-means
+        where we will write the actual content of the page
+    </body>
+<html>
+
+comments
+========
+<!--
+1) heading tags
+h1 - h6
+<h1>largest heading </h1>
+<h2> 2nd largest heading </h2>
+<h3> 3rd largest heading </h3>
+<h4> 4th largest heading </h4>
+<h5> second smallest heading </h5>
+<h6> smallestt heading </h6>
+
+<p> -- means -- it is used to represt the paragraph content</p>
+<p> -- lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna alique
+
+hr and br 
+horizontal ruler-- self closing tag
+<hr>
+
+break tag - it is used to inser line break
+<br>
+
+attributes
+==========
+it is used to provide extra information aboutan elements and it controls the behaviour
+--> always comes in key value pairs 
+
+anchor tag
+==========
+it is used for routing or navigation
+external routing
+----------------
+2 types
+1)absolute url -- complete url -- external links or c:/users/username/
+syntax -- <a href=''></a>
+href-- it is used to define the resource link
+target attribute
+-----------------
+it tell 
+
+2) relative urls-- relative to the current page location
+syntax-- <a herf='day1.html'>day1</a>
+
+internal routing 
+-->  it is used to navigate to other pages with in the same website 
+
+List tags:
+==========
+1. ordered list: it is used to create a list of items in a specific order,
+syntax:
+<ol>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+</ol>
+2. unordered list: it is used to create a list of items without a specific order,
+syntax:
+<ul>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+</ul>
+3. description list: it is used to create a list of terms and their descriptions.
+syntax:
+<dl>
+  <dt>term1</dt>
+  <dd>description1</dd>
+  <dt>term2</dt>
+  <dd>description2</dd>
+</dl>
+--------------
+day2
+-----
+tables
+rows
+columns - cells
+tables are defined with table tag
+rows are defined with tr tag
+cells are defined with td tag
+
+table attributes
+border
+------
+cellpadding - it create 
+cellspacing - 
+   
+
+
+internal routing -
+ <h1 id='contact'>contact<h1/>
+<a herf="#contact">contact </a>
+
+image tag - 
+1)absolute - 
+
+
+
+
